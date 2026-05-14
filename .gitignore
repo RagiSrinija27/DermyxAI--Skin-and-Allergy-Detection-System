@@ -1,5 +1,41 @@
+<<<<<<< HEAD
 venv/
 backend/venv/
 __pycache__/
 *.pyc
 backend/uploads/
+=======
+# Python virtual environments
+venv/
+backend/venv/
+backend/evenv/
+env/
+.env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ML Model files (too large for git - use Git LFS or cloud storage)
+*.keras
+*.h5
+*.weights
+*.pb
+*.pt
+*.pth
+*.onnx
+backend/models/
+
+# Uploads
+backend/uploads/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+>>>>>>> 089b71d37f70be8c6fe1a55c945af0b7441d231c
